@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.CustomersApp", "WiredBrainCoffee.CustomersApp\WiredBrainCoffee.CustomersApp.csproj", "{8EF7A545-15C9-4CD0-840F-3AC468F7917E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EF7A545-15C9-4CD0-840F-3AC468F7917E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF7A545-15C9-4CD0-840F-3AC468F7917E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF7A545-15C9-4CD0-840F-3AC468F7917E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF7A545-15C9-4CD0-840F-3AC468F7917E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E5DEE5F-798C-48EF-B985-7E1C79806A11}
+	EndGlobalSection
+EndGlobal
