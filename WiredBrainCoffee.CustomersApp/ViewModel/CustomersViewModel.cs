@@ -53,7 +53,7 @@ namespace WiredBrainCoffee.CustomersApp.ViewModel
 
         public DelegateCommand DeleteCommand { get; }
 
-        public async Task LoadAsync()
+        public async override Task LoadAsync()
         {
             if (Customers.Any())
                 return;
