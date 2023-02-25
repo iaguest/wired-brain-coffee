@@ -2,7 +2,7 @@
 
 namespace WiredBrainCoffee.CustomersApp.ViewModel
 {
-    public class CustomerItemViewModel : ViewModelBase
+    public class CustomerItemViewModel : ValidationViewModelBase
     {
         private readonly Customer _model;
 
@@ -20,6 +20,14 @@ namespace WiredBrainCoffee.CustomersApp.ViewModel
             {
                 _model.FirstName = value;
                 RaisePropertyChanged();
+                if (string.IsNullOrEmpty(_model.FirstName))
+                {
+                    AddError("Firstname is required");
+                }
+                else
+                {
+                    ClearErrors();
+                }
             }
         }
 
@@ -30,6 +38,14 @@ namespace WiredBrainCoffee.CustomersApp.ViewModel
             {
                 _model.LastName = value;
                 RaisePropertyChanged();
+                if (string.IsNullOrEmpty(_model.LastName))
+                {
+                    AddError("Lastname is required");
+                }
+                else
+                {
+                    ClearErrors();
+                }
             }
         }
 
