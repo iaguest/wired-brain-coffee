@@ -58,9 +58,11 @@
             <Label>Firstname:</Label>
             <TextBox Text="{Binding SelectedCustomer.FirstName,
                 Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+            <!--Style="{StaticResource TextBoxStyle}"/>-->
             <Label>Lastname:</Label>
             <TextBox Text="{Binding SelectedCustomer.LastName,
                 Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+            <!--Style="{StaticResource TextBoxStyle}"/>-->
             <CheckBox IsChecked="{Binding SelectedCustomer.IsDeveloper,
                 Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
                 Margin="0 10 0 0">
